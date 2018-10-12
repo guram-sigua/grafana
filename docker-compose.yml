@@ -1,8 +1,11 @@
-ct-grafana:
+grafana:
   build: .
   ports:
   - "222:22"
   - "9001:9001"
   - "3000:3000"
-  hostname: ct-grafana
+  hostname: grafana
+  environment:
+    ADMIN_USER: guram
+    ADMIN_PASSWORD: verystrongpassword
   privileged: false
