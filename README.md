@@ -1,2 +1,2 @@
-# grafana
+# Grafana
 Grafana Docker Image
