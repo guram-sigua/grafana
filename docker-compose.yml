@@ -1,0 +1,8 @@
+ct-grafana:
+  build: .
+  ports:
+  - "222:22"
+  - "9001:9001"
+  - "3000:3000"
+  hostname: ct-grafana
+  privileged: false
